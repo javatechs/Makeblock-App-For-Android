@@ -112,7 +112,7 @@ int hexPtr = 0;
 	{
 		// load hex file
         Resources res = context.getResources();
-        InputStream in_s = res.openRawResource(R.raw.firmware);
+        InputStream in_s = res.openRawResource(R.raw.firmware_cpp_hex);
         BufferedReader reader = new BufferedReader(new InputStreamReader(in_s));
         try {
 			String line = reader.readLine();
