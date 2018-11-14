@@ -871,8 +871,7 @@ public class LayoutView extends Activity {
 				showBtSelect();
 				break;
 			default:
-				Intent mIntent = new Intent(getApplicationContext(),MainActivity.class);
-				startActivityForResult(mIntent, 0);
+				finish();
 			}
 			return true;
 		}
