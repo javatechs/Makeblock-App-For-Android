@@ -4,4 +4,10 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
+    <!-- Car controller dims -->
+    <dimen name="speed_value_text_size">8dp</dimen>
+    <dimen name="car_controller_btn_narrow">80px</dimen>
+    <dimen name="car_controller_btn_wide">100px</dimen>
+    <dimen name="car_controller_btn_angle">86px</dimen>
+
 </resources>
